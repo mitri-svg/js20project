@@ -1,4 +1,4 @@
-body{
+.card{
     margin: 1% 10% 0% 10%;
 }
 #netice{
@@ -7,9 +7,26 @@ body{
 #result2{
     margin: 3% 10% 0% 10% ;
 }
+#result3{
+    margin: 3% 10% 0% 10% ;
+}
 #manat{
     margin: 3% 0% 0% 0%;
 }
-.tt{
-    margin: 0% 0% 3% 0%;
+.a{
+    margin-bottom: 3%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #f8f8f8;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #f8f8f8;
 }
