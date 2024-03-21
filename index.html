@@ -11,9 +11,30 @@
 </head>
 
 <body>
-  <header class="header">Header</header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Project</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active ulLink" aria-current="page" href="#yol">Yol</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active ulLink" href="#convert">Convert</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active ulLink" href="#calculator">Calculator</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <div class="card">
+
+  <div class="card" id="yol">
     <div class="card-header ">
       Yol
     </div>
@@ -25,31 +46,31 @@
         Mesafe: <input type="text" id="mesafe" required><br><br>
         Suret(km/saat) <input type="text" id="suret" required><br><br>
       </p>
-      <a href="#" class="btn btn-primary result">Result</a>
+      <a href="#" class="btn btn-primary result hoverClass">Result</a>
       <h5 id="netice"></h5>
     </div>
   </div>
 
   <hr>
 
-  <div class="card">
+  <div class="card" id="convert">
     <div class="card-header">
       Convert
     </div>
     <div class="card-body">
-      <h5 class="card-title">Convert AZN</h5>
+      <h5 class="card-title">Convert AZN:</h5>
       <p class="card-text">
         Manat(AZN): <input type="text" id="manat" required><br><br>
       </p>
 
       <nav href="#">
-        <button class="dollar btn btn-primary">Dollar</button>
+        <button class="btn dollar btn btn-primary hoverClass">Dollar</button>
 
-        <button class="euro btn btn-primary">Euro</button>
+        <button class="btn euro btn btn-primary hoverClass">Euro</button>
 
-        <button class="lira btn btn-primary">Lira</button>
+        <button class="btn lira btn btn-primary hoverClass">Lira</button>
 
-        <button class="rubl btn btn-primary">Rubl</button>
+        <button class="btn rubl btn btn-primary hoverClass">Rubl</button>
       </nav>
 
       <h5 id="result2"></h5>
@@ -58,26 +79,29 @@
 
   <hr>
 
-  <div class="card a">
+  <div class="card a" id="calculator">
     <div class="card-header">
       Calculator
     </div>
     <div class="card-body">
-      <h5 class="card-title">Calculator</h5>
-      <p class="card-text">
+      <h5 class="card-title">Calculator:</h5>
+      <p class="card-text inputMargin">
         Reqem 1: <input type="text" id="reqem1" required><br><br>
         Reqem 2: <input type="text" id="reqem2" required><br><br>
       </p>
       <nav href="#" class="">  
-        <button class="toplama btn btn-primary b">Toplama(+)</button>
-        <button class="cixma btn btn-primary b">Cixma(-)</button>
-        <button class="vurma btn btn-primary b">Vurma(*)</button>
-        <button class="bolme btn btn-primary b">Bolme(/)</button></nav>
+        <button class="btn toplama btn btn-primary b hoverClass">Toplama(+)</button>
+        <button class="btn cixma btn btn-primary b hoverClass">Cixma(-)</button>
+        <button class="btn vurma btn btn-primary b hoverClass">Vurma(*)</button>
+        <button class="btn bolme btn btn-primary b hoverClass">Bolme(/)</button></nav>
     </div>
     <h5 id="result3"></h5>
   </div>
 
-  <footer class="footer">Design by Mitri &copy; 2024</footer>
+  <footer class="footer">
+    Design by Mitri &copy; 2024
+     <a href="https://github.com/mitri-svg" target="_blank" class="aHref">My github</a>
+    </footer>
 
   <script src="script.js"></script>
 

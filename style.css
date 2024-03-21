@@ -2,13 +2,13 @@
     margin: 1% 10% 0% 10%;
 }
 #netice{
-    margin: 3% 10% 0% 10% ;
+    margin: 3% 10% 0% 7% ;
 }
 #result2{
-    margin: 3% 10% 0% 10% ;
+    margin: 3% 10% 0% 7% ;
 }
 #result3{
-    margin: 3% 10% 0% 10% ;
+    margin: 0% 10% 2% 7% ;
 }
 #manat{
     margin: 3% 0% 0% 0%;
@@ -32,4 +32,21 @@
 }
 .b{
     margin: 1px;
+}
+.aHref{
+    margin-left: 10px;
+    text-decoration: none;
+}
+.ulLink{
+    font-size: 1.117em;
+    color: rgba(0, 0, 0, 0.342);
+}
+.inputMargin{
+    margin-top: 4.03%;
+}
+.hoverClass{
+    transition: .7s;
+}
+.hoverClass:hover{
+    scale: 1.13;
 }
